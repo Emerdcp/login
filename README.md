@@ -76,3 +76,18 @@ else{
     resposta falsa
 }
 ```
+#### Exemplo
+```if($senha == 123 && $usuario == 'emerson'){
+    echo "Dados correta";
+}
+else{
+    echo "Dados incorreta";
+}
+```
+
+## Redirecionamento de página
+- Para redirecionar podemos utilizar o comando `header('Location: aquivo.php');
+`. Exemplo:
+```php
+header('location: painel.php');
+```

@@ -4,10 +4,10 @@ $senha = $_POST['senha'];
 
 //echo "$usuario - $senha";
 
-if($senha == 123){
-    echo "Senha correta";
+if($senha == 123 && $usuario == 'emerson'){
+    header('location: painel.php');
 }
 else{
-    echo "Senha incorreta";
+    header('location: usuario-invalido.php');
 }
 ?>
