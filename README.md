@@ -35,3 +35,11 @@ $senha = $_POST['senha'];
 
 echo "$usuario - $senha";
 ``` 
+
+## Operadores relacionais
+- `> maior`
+- `< menor`
+- `>= maior igual`
+- `<= menor igual`
+- `!= diferente`
+- `==igual`
