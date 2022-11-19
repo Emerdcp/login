@@ -43,3 +43,36 @@ echo "$usuario - $senha";
 - `<= menor igual`
 - `!= diferente`
 - `==igual`
+
+## Estrutura de decisão
+- Serve para você tomar uma decisão de acordo com o resultado de uma condição, caso o resultado seja TRUE você pode executar uma ação, caso seja FALSE pode executar outra ação.
+
+### if simples
+```php
+if(condição){
+    Resposta verdadeira
+}
+```
+
+### if else
+```php
+if (condição){
+    responsta verdadeira
+}
+else{
+    resposta falsa
+}
+```
+
+### if, else if, else
+```php
+if (condição){
+    responsta verdadeira do if
+}
+else if(condição){
+    resposta verdadeira do else if
+}
+else{
+    resposta falsa
+}
+```
